@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dusteroids, a Unity procedural generation tool and a C++ game engine. Programming projects by Biel Rabasa Galan.">
+  <meta name="theme-color" content="#101318">
+  <title>Game Programming | Biel Rabasa Galan</title>
+  <link rel="icon" href="../assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../assets/portfolio.css">
+  <script src="../assets/portfolio.js" defer></script>
+</head>
+<body class="theme-code">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell site-header-inner">
+      <a class="wordmark" href="../"><span class="monogram" aria-hidden="true">BR</span><span>Biel Rabasa Galan</span></a>
+      <nav class="primary-nav" aria-label="Portfolio sections">
+        <a href="../technical-art/">Technical Art</a>
+        <a href="../programming/" aria-current="page">Game Programming</a>
+        <a href="../social-media/">Social Media</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <header class="shell programming-intro">
+      <h1>Game Programming</h1>
+      <p>Unity gameplay systems, tools for artists and C++ engine development.</p>
+    </header>
+    <div class="shell">
+      <nav class="section-nav" aria-label="Game programming projects">
+        <a href="#dusteroids">Dusteroids</a><a href="#procedural-generation">Procedural Generation</a><a href="#seed">Game Engine</a>
+      </nav>
+      <section id="dusteroids" class="work-section dusteroids-study" aria-labelledby="dusteroids-title">
+        <div class="dusteroids-lead">
+          <p class="eyebrow">Unity · C#</p>
+          <h2 id="dusteroids-title">Dusteroids</h2>
+        </div>
+        <div class="media-switcher media-switcher--trailer" data-media-switcher>
+          <div class="media-stage">
+            <video controls autoplay muted playsinline preload="auto" poster="../assets/media/dusteroids-trailer-poster.webp" aria-label="Dusteroids trailer" data-stage-video>
+              <source src="../assets/media/dusteroids-trailer.mp4" type="video/mp4">
+              <a href="../assets/media/dusteroids-trailer.mp4">Open the Dusteroids trailer</a>
+            </video>
+            <img class="stage-preview" data-stage-preview alt="" hidden>
+          </div>
+          <div class="media-thumbnails" role="group" aria-label="Dusteroids trailer and Steam screenshots">
+        <button class="trailer-thumbnail" type="button" aria-label="Show Dusteroids trailer" aria-pressed="true" data-preview-trailer>
+          <img src="../assets/media/dusteroids-trailer-poster.webp" alt="" decoding="async">
+          <span class="thumbnail-play" aria-hidden="true"></span>
+        </button>
+        <button type="button" aria-label="Show the ship flying among asteroids" aria-pressed="false" data-preview-src="../assets/media/dusteroids-steam-1.webp" data-preview-alt="the ship flying among asteroids">
+          <img src="../assets/media/dusteroids-steam-1-thumb.webp" alt="" loading="lazy" decoding="async">
+        </button>
+        <button type="button" aria-label="Show the ship upgrade tree" aria-pressed="false" data-preview-src="../assets/media/dusteroids-steam-2.webp" data-preview-alt="the ship upgrade tree">
+          <img src="../assets/media/dusteroids-steam-2-thumb.webp" alt="" loading="lazy" decoding="async">
+        </button>
+        <button type="button" aria-label="Show orange asteroid debris" aria-pressed="false" data-preview-src="../assets/media/dusteroids-steam-3.webp" data-preview-alt="orange asteroid debris">
+          <img src="../assets/media/dusteroids-steam-3-thumb.webp" alt="" loading="lazy" decoding="async">
+        </button>
+        <button type="button" aria-label="Show a green asteroid field" aria-pressed="false" data-preview-src="../assets/media/dusteroids-steam-4.webp" data-preview-alt="a green asteroid field">
+          <img src="../assets/media/dusteroids-steam-4-thumb.webp" alt="" loading="lazy" decoding="async">
+        </button>
+        <button type="button" aria-label="Show the prestige constellation" aria-pressed="false" data-preview-src="../assets/media/dusteroids-steam-5.webp" data-preview-alt="the prestige constellation">
+          <img src="../assets/media/dusteroids-steam-5-thumb.webp" alt="" loading="lazy" decoding="async">
+        </button>
+        <button type="button" aria-label="Show a field of projectiles" aria-pressed="false" data-preview-src="../assets/media/dusteroids-steam-6.webp" data-preview-alt="a field of projectiles">
+          <img src="../assets/media/dusteroids-steam-6-thumb.webp" alt="" loading="lazy" decoding="async">
+        </button>
+        <button type="button" aria-label="Show early gameplay" aria-pressed="false" data-preview-src="../assets/media/dusteroids-steam-7.webp" data-preview-alt="early gameplay">
+          <img src="../assets/media/dusteroids-steam-7-thumb.webp" alt="" loading="lazy" decoding="async">
+        </button>
+        <button type="button" aria-label="Show blue asteroid debris" aria-pressed="false" data-preview-src="../assets/media/dusteroids-steam-8.webp" data-preview-alt="blue asteroid debris">
+          <img src="../assets/media/dusteroids-steam-8-thumb.webp" alt="" loading="lazy" decoding="async">
+        </button>
+        <button type="button" aria-label="Show the ship firing in several directions" aria-pressed="false" data-preview-src="../assets/media/dusteroids-steam-9.webp" data-preview-alt="the ship firing in several directions">
+          <img src="../assets/media/dusteroids-steam-9-thumb.webp" alt="" loading="lazy" decoding="async">
+        </button>
+      </div>
+        </div>
+        <div class="dusteroids-detail">
+          <p class="case-intro">I spent ten months programming Dusteroids in Unity and C#. I built the gameplay, progression and runtime systems, along with the editor tools I used to develop them.</p>
+          <ul class="case-points">
+            <li><strong>Gameplay systems.</strong> Implemented asteroid combat and ship upgrades with reusable C# components and data-driven configuration through ScriptableObjects.</li>
+            <li><strong>Tools and performance.</strong> Built Unity editor tools and used object pooling, chunk-based simulation and selective updates to manage runtime workload.</li>
+            <li><strong>Other responsibilities.</strong> I also handled game design, art, marketing and publishing. <a class="inline-link" href="../social-media/">See my work as CingleDev</a>.</li>
+          </ul>
+          <div class="link-row"><a class="project-link" href="https://store.steampowered.com/app/4557250/Dusteroids/">View on Steam</a></div>
+        </div>
+      </section>
+      <section id="procedural-generation" class="work-section case-study" aria-labelledby="tool-title">
+        <div class="case-copy">
+          <p class="eyebrow">Unity · C# · Wave Function Collapse</p>
+          <h2 id="tool-title">Unity Procedural Generation Tool</h2>
+          <p class="case-intro">I built a Unity editor tool so artists can generate 3D structures from tiles and compatibility rules.</p>
+          <ul class="case-points">
+            <li><strong>Artist workflow.</strong> Built the editor interface for configuring reusable tiles and their adjacency rules.</li>
+            <li><strong>Generation.</strong> Implemented Wave Function Collapse on a 3D grid and used bit flags and bitwise operations to reduce memory use.</li>
+          </ul>
+          <div class="link-row"><a class="project-link" href="https://github.com/bielrabasa/Unity_PCG_Tool">View source</a><a class="project-link" href="https://www.youtube.com/watch?v=034uKz9BEFw">Watch demo</a></div>
+        </div>
+        <div class="case-media" data-gallery>
+          <a class="photo-link" href="../assets/media/pcg-editor.webp" data-photo>
+  <img src="../assets/media/pcg-editor-thumb.webp" alt="Unity editor showing green tiles and a grid of compatibility options." loading="lazy" decoding="async">
+  <span class="photo-label">Tile and rule editor<span aria-hidden="true">+</span></span>
+</a>
+          <a class="photo-link" href="../assets/media/pcg-result.webp" data-photo>
+  <img src="../assets/media/pcg-result-thumb.webp" alt="A large green three-dimensional structure generated from connected tiles." loading="lazy" decoding="async">
+  <span class="photo-label">Generated structure<span aria-hidden="true">+</span></span>
+</a>
+        </div>
+      </section>
+      <section id="seed" class="work-section case-study" aria-labelledby="seed-title">
+        <div class="case-copy">
+          <p class="eyebrow">C++ · OpenGL · GLSL</p>
+          <h2 id="seed-title">Game Engine</h2>
+          <p class="case-intro">I co-developed this C++ and OpenGL engine with Roger Salas for our 2022–23 university project. My work covered the scene system, rendering and asset import.</p>
+          <ul class="case-points">
+            <li><strong>Scene architecture.</strong> Built the game object hierarchy and component system, including parent-relative transforms and components for cameras, meshes, textures and shaders.</li>
+            <li><strong>Rendering and asset import.</strong> Worked on the OpenGL render pipeline and implemented drag-and-drop import for FBX and DAE models, textures and GLSL files. Imported models were added to the scene as game objects with mesh and texture components.</li>
+            <li><strong>Shader pipeline.</strong> Implemented default shaders and inspector controls for shader uniforms. The engine recompiles GLSL on save and updates objects using that shader. I also built the demo scene and wrote its water shader.</li>
+          </ul>
+          <div class="link-row"><a class="project-link" href="https://bielrabasa.github.io/TheSeed_GameEngine/">Project documentation</a><a class="project-link" href="https://github.com/bielrabasa/TheSeed_GameEngine">View source</a><a class="project-link" href="https://www.youtube.com/watch?v=Q3mUnDFT2cs">Watch demo</a></div>
+        </div>
+        <div class="case-media" data-gallery>
+          <a class="photo-link" href="../assets/media/seed-editor.webp" data-photo>
+  <img src="../assets/media/seed-editor-thumb.webp" alt="Game engine editor with GLSL source on the left and a water shader preview on the right." loading="lazy" decoding="async">
+  <span class="photo-label">GLSL editor and scene preview<span aria-hidden="true">+</span></span>
+</a>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <span>Biel Rabasa Galan</span>
+      <nav aria-label="Professional profiles"><a href="https://www.linkedin.com/in/biel-rabasa-galan-0bb636264/">LinkedIn</a><a href="https://github.com/bielrabasa">GitHub</a></nav>
+    </div>
+  </footer>
+  <dialog class="photo-dialog" aria-labelledby="photo-caption">
+    <div class="dialog-toolbar">
+      <p id="photo-caption"></p>
+      <form method="dialog"><button class="dialog-button" type="submit" autofocus>Close</button></form>
+    </div>
+    <img class="dialog-image" alt="">
+    <div class="dialog-controls">
+      <button class="dialog-button" type="button" data-previous>Previous</button>
+      <span data-count aria-live="polite"></span>
+      <button class="dialog-button" type="button" data-next>Next</button>
+    </div>
+  </dialog>
+</body>
+</html>
